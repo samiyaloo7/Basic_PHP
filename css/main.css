@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	overflow-X: hidden;
+}
+/*  top row header  */
+.top-box {
+	background: #157;
+	height: auto;
+	min-height: 5vh;
+}
+.top-box > h2 {
+	width: auto;
+	display: inline-block;
+	position: absolute;
+	margin: 0;
+	padding: 1vh 3vw;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+}
+nav > ul , .foot-box  > ul {
+	list-style-type: none;
+	margin: 0;
+}
+nav > ul > li > a{
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li {
+	display: inline-block;
+	padding: 1vh 3vw;
+	float: right;
+}
+nav > ul > li:hover {
+	background: #247;
+	border-top: 3px solid #333;
+}
+/*  top row header  */
+
+/*  footer bottom  */
+.bottom-box {
+	margin: 0;
+	background: #257;
+	height: auto;
+	width: 100vw;
+}
+.foot-box  > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+.foot-box {
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	margin: 1vh 1vw;
+}
+.foot-box > p {
+	margin-left: 2vw;
+	border-bottom: 2px solid white;
+}
+.footer-contents {
+	height: auto;
+	width: 80vw;
+	display: inline-block;
+	margin-left: 10vw;
+	text-align: center;
+}
+.mark-box {
+	margin-top: 5vh;
+	text-align: center;
+}
+.mark-box > p {
+	margin: 0;
+}
+.mark-box > p > span {
+	color: white;
+}
+/*  footer bottom  */
+
+/*  header banner  */
+.header-banner {
+	height: 60vh;
+	background: linear-gradient(-45deg, #789,transparent, transparent, #789);
+}
+.header-banner > h1 {
+	transform: translateY(-50%);
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	font-size: 3rem;
+	color: #147;
+	text-shadow: 2px 2px 2px #333;
+}
+.header-banner > p{
+	transform: translateY(-50%);
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	font-size: 1.5rem;
+	color: #147;
+	text-shadow: 2px 2px 2px #333;
+}
+.banner-opts > p {
+	position: absolute;
+	right: 3vw;
+}
+.banner-opts > p  > a {
+	color: #333;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 1vh;
+	border-radius: 5px;
+}
+/*  header banner  */
+
+/*  Registration  */
+.reg-box {
+	background: linear-gradient(-45deg, #789,transparent, transparent, #789);
+	height: auto;
+	width: 96%;
+	transform: translateX(-50%);
+	margin-left: 50%;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	padding: 2vh 0 2vh 0;
+	text-align: center;
+}
+
+
+.frm-block > .frm-field {
+	width: 20vw;
+	height: 4vh;
+	margin: 1vh 0;
+	padding: 5px 1vw;
+	font-size: 1rem;
+	border: 1px solid black;
+	border-radius: 0 0 20px 20px;
+}
+.frm-block > .frm-btns {
+	width: 10vw;
+	height: 5vh;
+	margin: 1vh 0;
+	padding: 5px 1vw;
+	font-size: 1rem;
+	background: #157;
+	color: white;
+	border-bottom: 5px solid grey;
+	border-radius: 0 0 20px 20px;
+}
+.frm-ttl {
+	font-size: 2rem;
+	color: grey;
+	border-bottom: 3px solid grey;
+}
+.frm-ttl-box > span {
+	right: 3vw;
+	position: absolute;
+}
+.frm-ttl-box > span > a {
+	color: #333;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 1vh;
+	border-radius: 5px;
+}
+.banner-opts > #username {
+	color: #333;
+}
+/*  Registration  */
+	
