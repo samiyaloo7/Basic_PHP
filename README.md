@@ -3,7 +3,7 @@
 
 
 # How to Use
-- Just copy whole repository(All files) to /htdocs or /www folder.
+- Just copy whole repository to /htdocs or /www folder.
 - Create database and name it as mscit2.
 - Import db/mscit2 to created database.
 - All done.
