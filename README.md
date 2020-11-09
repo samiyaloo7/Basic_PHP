@@ -13,4 +13,4 @@
 
 - Samiyal yadav M.(sagar)
 - E-mail : samiyal7pro@gmail.com
-- Web-Site: <http://samiyalization.ml>
+- Web-Site: <http://samiyal.ml>
